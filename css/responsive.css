@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+    .calculator-container {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 0.5rem 0;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .calculator-section {
+        margin: 1rem;
+    }
+
+    .service-options {
+        gap: 1rem;
+    }
+
+    .price-display {
+        padding: 1rem;
+    }
+}
